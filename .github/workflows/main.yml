@@ -30,5 +30,5 @@ jobs:
       run: npm i -g surge
       
     - name: Deploying on Surge
-      run: surge ./ like-trail.surge.sh --token &{{secret.SURGE_TOKEN}}
+      run: surge ./ like-trail.surge.sh --token &{{secrets.SURGE_TOKEN}}
      
